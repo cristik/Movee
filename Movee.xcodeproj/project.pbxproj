@@ -1,0 +1,1439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0B2B2724AA53CD00D4FC26 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0F0B2B2624AA53CD00D4FC26 /* SDWebImageSwiftUI */; };
+		0F20940124B25A2A009F49C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F20940024B25A2A009F49C1 /* Assets.xcassets */; };
+		0F20940424B25A2A009F49C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F20940324B25A2A009F49C1 /* Preview Assets.xcassets */; };
+		0F20940F24B25A2B009F49C1 /* Movee_RetroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20940E24B25A2B009F49C1 /* Movee_RetroTests.swift */; };
+		0F20941A24B25A2B009F49C1 /* Movee_RetroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20941924B25A2B009F49C1 /* Movee_RetroUITests.swift */; };
+		0F20942B24B25AF9009F49C1 /* TMDB+Movee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20942524B25AF9009F49C1 /* TMDB+Movee.swift */; };
+		0F20942C24B25AF9009F49C1 /* MovieCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20942624B25AF9009F49C1 /* MovieCollectionView.swift */; };
+		0F20942D24B25AF9009F49C1 /* MovieCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20942724B25AF9009F49C1 /* MovieCellView.swift */; };
+		0F20942E24B25AF9009F49C1 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20942824B25AF9009F49C1 /* RatingView.swift */; };
+		0F20943024B25AF9009F49C1 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20942A24B25AF9009F49C1 /* MovieDetailsView.swift */; };
+		0F20944024B26435009F49C1 /* SDWebImage+Movee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20943224B26434009F49C1 /* SDWebImage+Movee.swift */; };
+		0F20944124B26435009F49C1 /* TMDB+Movee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20943324B26434009F49C1 /* TMDB+Movee.swift */; };
+		0F20944224B26435009F49C1 /* Foundation+Movee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20943424B26434009F49C1 /* Foundation+Movee.swift */; };
+		0F20944424B26435009F49C1 /* MoviesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20943724B26434009F49C1 /* MoviesCollectionView.swift */; };
+		0F20944524B26435009F49C1 /* MovieCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20943824B26434009F49C1 /* MovieCellView.swift */; };
+		0F20944724B26435009F49C1 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20943A24B26434009F49C1 /* RatingView.swift */; };
+		0F20944824B26435009F49C1 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20943B24B26434009F49C1 /* MovieDetailsView.swift */; };
+		0F20944924B26435009F49C1 /* MoveeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20943C24B26435009F49C1 /* MoveeApp.swift */; };
+		0F20944A24B26435009F49C1 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20943E24B26435009F49C1 /* NetworkClient.swift */; };
+		0F20944B24B26435009F49C1 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20943F24B26435009F49C1 /* ImageService.swift */; };
+		0F20944D24B2647A009F49C1 /* TMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBBB7EF24A889C8004DC909 /* TMDB.framework */; };
+		0F20944F24B2647E009F49C1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0F20944E24B2647E009F49C1 /* SDWebImageSwiftUI */; };
+		0F20945124B26482009F49C1 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0F20945024B26482009F49C1 /* PromiseKit */; };
+		0F3C7AC524B1150F005EBC68 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0F3C7AC424B1150F005EBC68 /* PromiseKit */; };
+		0F631E5724B65E7B00E4816E /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F631E5624B65E7B00E4816E /* MovieService.swift */; };
+		0F7D59C824AB96E400FE16F1 /* TMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D59C724AB96E400FE16F1 /* TMDBTests.swift */; };
+		0F7D59CA24AB96E400FE16F1 /* TMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBBB7EF24A889C8004DC909 /* TMDB.framework */; };
+		0F929D0A24B4FC26002972EF /* SwiftUI+Movee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F929D0924B4FC26002972EF /* SwiftUI+Movee.swift */; };
+		0FA09A2C24B51F950036083A /* AppEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA09A2B24B51F950036083A /* AppEntryView.swift */; };
+		0FA09A2E24B51FBF0036083A /* MovieCategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA09A2D24B51FBF0036083A /* MovieCategoryCard.swift */; };
+		0FA09A3024B51FF00036083A /* SwiftUI+Movee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA09A2F24B51FF00036083A /* SwiftUI+Movee.swift */; };
+		0FAE52AB24B3A411009780E4 /* AppEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAE52AA24B3A411009780E4 /* AppEntryView.swift */; };
+		0FAE52AD24B3A780009780E4 /* MovieCategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAE52AC24B3A780009780E4 /* MovieCategoryCard.swift */; };
+		0FBBB7C024A85F07004DC909 /* MoveeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBB7BF24A85F07004DC909 /* MoveeApp.swift */; };
+		0FBBB7C424A85F08004DC909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBBB7C324A85F08004DC909 /* Assets.xcassets */; };
+		0FBBB7C724A85F08004DC909 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBBB7C624A85F08004DC909 /* Preview Assets.xcassets */; };
+		0FBBB7D224A85F08004DC909 /* MoveeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBB7D124A85F08004DC909 /* MoveeTests.swift */; };
+		0FBBB7DD24A85F08004DC909 /* MoveeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBB7DC24A85F08004DC909 /* MoveeUITests.swift */; };
+		0FBBB7F324A889C8004DC909 /* TMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBBB7F124A889C8004DC909 /* TMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FBBB7F624A889C8004DC909 /* TMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBBB7EF24A889C8004DC909 /* TMDB.framework */; };
+		0FBBB7F724A889C8004DC909 /* TMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBBB7EF24A889C8004DC909 /* TMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FBBB7FD24A88C71004DC909 /* TMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBB7FC24A88C71004DC909 /* TMDB.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F20940B24B25A2A009F49C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBBB7B424A85F07004DC909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F2093F924B25A29009F49C1;
+			remoteInfo = "Movee-Retro";
+		};
+		0F20941624B25A2B009F49C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBBB7B424A85F07004DC909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F2093F924B25A29009F49C1;
+			remoteInfo = "Movee-Retro";
+		};
+		0F7D59CB24AB96E400FE16F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBBB7B424A85F07004DC909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FBBB7EE24A889C8004DC909;
+			remoteInfo = TMDB;
+		};
+		0FBBB7CE24A85F08004DC909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBBB7B424A85F07004DC909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FBBB7BB24A85F07004DC909;
+			remoteInfo = Movee;
+		};
+		0FBBB7D924A85F08004DC909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBBB7B424A85F07004DC909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FBBB7BB24A85F07004DC909;
+			remoteInfo = Movee;
+		};
+		0FBBB7F424A889C8004DC909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBBB7B424A85F07004DC909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FBBB7EE24A889C8004DC909;
+			remoteInfo = TMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0FBBB7FB24A889C8004DC909 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0FBBB7F724A889C8004DC909 /* TMDB.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F2093FA24B25A29009F49C1 /* Movee-Retro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movee-Retro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F20940024B25A2A009F49C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F20940324B25A2A009F49C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F20940524B25A2A009F49C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F20940A24B25A2A009F49C1 /* Movee-RetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movee-RetroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F20940E24B25A2B009F49C1 /* Movee_RetroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movee_RetroTests.swift; sourceTree = "<group>"; };
+		0F20941024B25A2B009F49C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F20941524B25A2B009F49C1 /* Movee-RetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movee-RetroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F20941924B25A2B009F49C1 /* Movee_RetroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movee_RetroUITests.swift; sourceTree = "<group>"; };
+		0F20941B24B25A2B009F49C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F20942524B25AF9009F49C1 /* TMDB+Movee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TMDB+Movee.swift"; sourceTree = "<group>"; };
+		0F20942624B25AF9009F49C1 /* MovieCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionView.swift; sourceTree = "<group>"; };
+		0F20942724B25AF9009F49C1 /* MovieCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCellView.swift; sourceTree = "<group>"; };
+		0F20942824B25AF9009F49C1 /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		0F20942A24B25AF9009F49C1 /* MovieDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		0F20943224B26434009F49C1 /* SDWebImage+Movee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SDWebImage+Movee.swift"; sourceTree = "<group>"; };
+		0F20943324B26434009F49C1 /* TMDB+Movee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TMDB+Movee.swift"; sourceTree = "<group>"; };
+		0F20943424B26434009F49C1 /* Foundation+Movee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Movee.swift"; sourceTree = "<group>"; };
+		0F20943724B26434009F49C1 /* MoviesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesCollectionView.swift; sourceTree = "<group>"; };
+		0F20943824B26434009F49C1 /* MovieCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCellView.swift; sourceTree = "<group>"; };
+		0F20943A24B26434009F49C1 /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		0F20943B24B26434009F49C1 /* MovieDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		0F20943C24B26435009F49C1 /* MoveeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveeApp.swift; sourceTree = "<group>"; };
+		0F20943E24B26435009F49C1 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		0F20943F24B26435009F49C1 /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		0F631E5624B65E7B00E4816E /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		0F7D59C524AB96E400FE16F1 /* TMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7D59C724AB96E400FE16F1 /* TMDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTests.swift; sourceTree = "<group>"; };
+		0F7D59C924AB96E400FE16F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F929D0924B4FC26002972EF /* SwiftUI+Movee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+Movee.swift"; sourceTree = "<group>"; };
+		0FA09A2B24B51F950036083A /* AppEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryView.swift; sourceTree = "<group>"; };
+		0FA09A2D24B51FBF0036083A /* MovieCategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoryCard.swift; sourceTree = "<group>"; };
+		0FA09A2F24B51FF00036083A /* SwiftUI+Movee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+Movee.swift"; sourceTree = "<group>"; };
+		0FAE52AA24B3A411009780E4 /* AppEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryView.swift; sourceTree = "<group>"; };
+		0FAE52AC24B3A780009780E4 /* MovieCategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoryCard.swift; sourceTree = "<group>"; };
+		0FBBB7BC24A85F07004DC909 /* Movee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBBB7BF24A85F07004DC909 /* MoveeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveeApp.swift; sourceTree = "<group>"; };
+		0FBBB7C324A85F08004DC909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FBBB7C624A85F08004DC909 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FBBB7C824A85F08004DC909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBBB7CD24A85F08004DC909 /* MoveeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBBB7D124A85F08004DC909 /* MoveeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveeTests.swift; sourceTree = "<group>"; };
+		0FBBB7D324A85F08004DC909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBBB7D824A85F08004DC909 /* MoveeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBBB7DC24A85F08004DC909 /* MoveeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveeUITests.swift; sourceTree = "<group>"; };
+		0FBBB7DE24A85F08004DC909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBBB7EF24A889C8004DC909 /* TMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBBB7F124A889C8004DC909 /* TMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDB.h; sourceTree = "<group>"; };
+		0FBBB7F224A889C8004DC909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBBB7FC24A88C71004DC909 /* TMDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDB.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F2093F724B25A29009F49C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F20944F24B2647E009F49C1 /* SDWebImageSwiftUI in Frameworks */,
+				0F20945124B26482009F49C1 /* PromiseKit in Frameworks */,
+				0F20944D24B2647A009F49C1 /* TMDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F20940724B25A2A009F49C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F20941224B25A2B009F49C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7D59C224AB96E400FE16F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7D59CA24AB96E400FE16F1 /* TMDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7B924A85F07004DC909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0B2B2724AA53CD00D4FC26 /* SDWebImageSwiftUI in Frameworks */,
+				0F3C7AC524B1150F005EBC68 /* PromiseKit in Frameworks */,
+				0FBBB7F624A889C8004DC909 /* TMDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7CA24A85F08004DC909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7D524A85F08004DC909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7EC24A889C8004DC909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F2093FB24B25A29009F49C1 /* Movee-Retro */ = {
+			isa = PBXGroup;
+			children = (
+				0F20943C24B26435009F49C1 /* MoveeApp.swift */,
+				0F20943124B26434009F49C1 /* Extensions */,
+				0F20943D24B26435009F49C1 /* Protocols */,
+				0F20943524B26434009F49C1 /* Views */,
+				0F20940024B25A2A009F49C1 /* Assets.xcassets */,
+				0F20940524B25A2A009F49C1 /* Info.plist */,
+				0F20940224B25A2A009F49C1 /* Preview Content */,
+			);
+			path = "Movee-Retro";
+			sourceTree = "<group>";
+		};
+		0F20940224B25A2A009F49C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0F20940324B25A2A009F49C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0F20940D24B25A2B009F49C1 /* Movee-RetroTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F20940E24B25A2B009F49C1 /* Movee_RetroTests.swift */,
+				0F20941024B25A2B009F49C1 /* Info.plist */,
+			);
+			path = "Movee-RetroTests";
+			sourceTree = "<group>";
+		};
+		0F20941824B25A2B009F49C1 /* Movee-RetroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F20941924B25A2B009F49C1 /* Movee_RetroUITests.swift */,
+				0F20941B24B25A2B009F49C1 /* Info.plist */,
+			);
+			path = "Movee-RetroUITests";
+			sourceTree = "<group>";
+		};
+		0F20943124B26434009F49C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0F20943224B26434009F49C1 /* SDWebImage+Movee.swift */,
+				0F20943324B26434009F49C1 /* TMDB+Movee.swift */,
+				0F20943424B26434009F49C1 /* Foundation+Movee.swift */,
+				0FA09A2F24B51FF00036083A /* SwiftUI+Movee.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0F20943524B26434009F49C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FA09A2B24B51F950036083A /* AppEntryView.swift */,
+				0FA09A2D24B51FBF0036083A /* MovieCategoryCard.swift */,
+				0F20943724B26434009F49C1 /* MoviesCollectionView.swift */,
+				0F20943824B26434009F49C1 /* MovieCellView.swift */,
+				0F20943B24B26434009F49C1 /* MovieDetailsView.swift */,
+				0F20943A24B26434009F49C1 /* RatingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F20943D24B26435009F49C1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0F20943E24B26435009F49C1 /* NetworkClient.swift */,
+				0F631E5624B65E7B00E4816E /* MovieService.swift */,
+				0F20943F24B26435009F49C1 /* ImageService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0F20944C24B2647A009F49C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F7D59C624AB96E400FE16F1 /* TMDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7D59C724AB96E400FE16F1 /* TMDBTests.swift */,
+				0F7D59C924AB96E400FE16F1 /* Info.plist */,
+			);
+			path = TMDBTests;
+			sourceTree = "<group>";
+		};
+		0F929D0724B4F2DF002972EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0F20942524B25AF9009F49C1 /* TMDB+Movee.swift */,
+				0F929D0924B4FC26002972EF /* SwiftUI+Movee.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0F929D0824B4F2F0002972EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FAE52AA24B3A411009780E4 /* AppEntryView.swift */,
+				0FAE52AC24B3A780009780E4 /* MovieCategoryCard.swift */,
+				0F20942624B25AF9009F49C1 /* MovieCollectionView.swift */,
+				0F20942724B25AF9009F49C1 /* MovieCellView.swift */,
+				0F20942A24B25AF9009F49C1 /* MovieDetailsView.swift */,
+				0F20942824B25AF9009F49C1 /* RatingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0FBBB7B324A85F07004DC909 = {
+			isa = PBXGroup;
+			children = (
+				0FBBB7BE24A85F07004DC909 /* Movee */,
+				0F2093FB24B25A29009F49C1 /* Movee-Retro */,
+				0FBBB7F024A889C8004DC909 /* TMDB */,
+				0FBBB7D024A85F08004DC909 /* MoveeTests */,
+				0F7D59C624AB96E400FE16F1 /* TMDBTests */,
+				0F20940D24B25A2B009F49C1 /* Movee-RetroTests */,
+				0FBBB7DB24A85F08004DC909 /* MoveeUITests */,
+				0F20941824B25A2B009F49C1 /* Movee-RetroUITests */,
+				0FBBB7BD24A85F07004DC909 /* Products */,
+				0F20944C24B2647A009F49C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0FBBB7BD24A85F07004DC909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FBBB7BC24A85F07004DC909 /* Movee.app */,
+				0FBBB7CD24A85F08004DC909 /* MoveeTests.xctest */,
+				0FBBB7D824A85F08004DC909 /* MoveeUITests.xctest */,
+				0FBBB7EF24A889C8004DC909 /* TMDB.framework */,
+				0F7D59C524AB96E400FE16F1 /* TMDBTests.xctest */,
+				0F2093FA24B25A29009F49C1 /* Movee-Retro.app */,
+				0F20940A24B25A2A009F49C1 /* Movee-RetroTests.xctest */,
+				0F20941524B25A2B009F49C1 /* Movee-RetroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FBBB7BE24A85F07004DC909 /* Movee */ = {
+			isa = PBXGroup;
+			children = (
+				0FBBB7BF24A85F07004DC909 /* MoveeApp.swift */,
+				0F929D0824B4F2F0002972EF /* Views */,
+				0F929D0724B4F2DF002972EF /* Extensions */,
+				0FBBB7C324A85F08004DC909 /* Assets.xcassets */,
+				0FBBB7C824A85F08004DC909 /* Info.plist */,
+				0FBBB7C524A85F08004DC909 /* Preview Content */,
+			);
+			path = Movee;
+			sourceTree = "<group>";
+		};
+		0FBBB7C524A85F08004DC909 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0FBBB7C624A85F08004DC909 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FBBB7D024A85F08004DC909 /* MoveeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FBBB7D124A85F08004DC909 /* MoveeTests.swift */,
+				0FBBB7D324A85F08004DC909 /* Info.plist */,
+			);
+			path = MoveeTests;
+			sourceTree = "<group>";
+		};
+		0FBBB7DB24A85F08004DC909 /* MoveeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FBBB7DC24A85F08004DC909 /* MoveeUITests.swift */,
+				0FBBB7DE24A85F08004DC909 /* Info.plist */,
+			);
+			path = MoveeUITests;
+			sourceTree = "<group>";
+		};
+		0FBBB7F024A889C8004DC909 /* TMDB */ = {
+			isa = PBXGroup;
+			children = (
+				0FBBB7FC24A88C71004DC909 /* TMDB.swift */,
+				0FBBB7F124A889C8004DC909 /* TMDB.h */,
+				0FBBB7F224A889C8004DC909 /* Info.plist */,
+			);
+			path = TMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FBBB7EA24A889C8004DC909 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBBB7F324A889C8004DC909 /* TMDB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F2093F924B25A29009F49C1 /* Movee-Retro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F20942224B25A2B009F49C1 /* Build configuration list for PBXNativeTarget "Movee-Retro" */;
+			buildPhases = (
+				0F2093F624B25A29009F49C1 /* Sources */,
+				0F2093F724B25A29009F49C1 /* Frameworks */,
+				0F2093F824B25A29009F49C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Movee-Retro";
+			packageProductDependencies = (
+				0F20944E24B2647E009F49C1 /* SDWebImageSwiftUI */,
+				0F20945024B26482009F49C1 /* PromiseKit */,
+			);
+			productName = "Movee-Retro";
+			productReference = 0F2093FA24B25A29009F49C1 /* Movee-Retro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F20940924B25A2A009F49C1 /* Movee-RetroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F20942324B25A2B009F49C1 /* Build configuration list for PBXNativeTarget "Movee-RetroTests" */;
+			buildPhases = (
+				0F20940624B25A2A009F49C1 /* Sources */,
+				0F20940724B25A2A009F49C1 /* Frameworks */,
+				0F20940824B25A2A009F49C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F20940C24B25A2A009F49C1 /* PBXTargetDependency */,
+			);
+			name = "Movee-RetroTests";
+			productName = "Movee-RetroTests";
+			productReference = 0F20940A24B25A2A009F49C1 /* Movee-RetroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F20941424B25A2B009F49C1 /* Movee-RetroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F20942424B25A2B009F49C1 /* Build configuration list for PBXNativeTarget "Movee-RetroUITests" */;
+			buildPhases = (
+				0F20941124B25A2B009F49C1 /* Sources */,
+				0F20941224B25A2B009F49C1 /* Frameworks */,
+				0F20941324B25A2B009F49C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F20941724B25A2B009F49C1 /* PBXTargetDependency */,
+			);
+			name = "Movee-RetroUITests";
+			productName = "Movee-RetroUITests";
+			productReference = 0F20941524B25A2B009F49C1 /* Movee-RetroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0F7D59C424AB96E400FE16F1 /* TMDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7D59CF24AB96E400FE16F1 /* Build configuration list for PBXNativeTarget "TMDBTests" */;
+			buildPhases = (
+				0F7D59C124AB96E400FE16F1 /* Sources */,
+				0F7D59C224AB96E400FE16F1 /* Frameworks */,
+				0F7D59C324AB96E400FE16F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F7D59CC24AB96E400FE16F1 /* PBXTargetDependency */,
+			);
+			name = TMDBTests;
+			productName = TMDBTests;
+			productReference = 0F7D59C524AB96E400FE16F1 /* TMDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FBBB7BB24A85F07004DC909 /* Movee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FBBB7E124A85F08004DC909 /* Build configuration list for PBXNativeTarget "Movee" */;
+			buildPhases = (
+				0FBBB7B824A85F07004DC909 /* Sources */,
+				0FBBB7B924A85F07004DC909 /* Frameworks */,
+				0FBBB7BA24A85F07004DC909 /* Resources */,
+				0FBBB7FB24A889C8004DC909 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FBBB7F524A889C8004DC909 /* PBXTargetDependency */,
+			);
+			name = Movee;
+			packageProductDependencies = (
+				0F0B2B2624AA53CD00D4FC26 /* SDWebImageSwiftUI */,
+				0F3C7AC424B1150F005EBC68 /* PromiseKit */,
+			);
+			productName = Movee;
+			productReference = 0FBBB7BC24A85F07004DC909 /* Movee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FBBB7CC24A85F08004DC909 /* MoveeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FBBB7E424A85F08004DC909 /* Build configuration list for PBXNativeTarget "MoveeTests" */;
+			buildPhases = (
+				0FBBB7C924A85F08004DC909 /* Sources */,
+				0FBBB7CA24A85F08004DC909 /* Frameworks */,
+				0FBBB7CB24A85F08004DC909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FBBB7CF24A85F08004DC909 /* PBXTargetDependency */,
+			);
+			name = MoveeTests;
+			productName = MoveeTests;
+			productReference = 0FBBB7CD24A85F08004DC909 /* MoveeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FBBB7D724A85F08004DC909 /* MoveeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FBBB7E724A85F08004DC909 /* Build configuration list for PBXNativeTarget "MoveeUITests" */;
+			buildPhases = (
+				0FBBB7D424A85F08004DC909 /* Sources */,
+				0FBBB7D524A85F08004DC909 /* Frameworks */,
+				0FBBB7D624A85F08004DC909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FBBB7DA24A85F08004DC909 /* PBXTargetDependency */,
+			);
+			name = MoveeUITests;
+			productName = MoveeUITests;
+			productReference = 0FBBB7D824A85F08004DC909 /* MoveeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0FBBB7EE24A889C8004DC909 /* TMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FBBB7F824A889C8004DC909 /* Build configuration list for PBXNativeTarget "TMDB" */;
+			buildPhases = (
+				0FBBB7EA24A889C8004DC909 /* Headers */,
+				0FBBB7EB24A889C8004DC909 /* Sources */,
+				0FBBB7EC24A889C8004DC909 /* Frameworks */,
+				0FBBB7ED24A889C8004DC909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMDB;
+			productName = TMDB;
+			productReference = 0FBBB7EF24A889C8004DC909 /* TMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FBBB7B424A85F07004DC909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					0F2093F924B25A29009F49C1 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					0F20940924B25A2A009F49C1 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 0F2093F924B25A29009F49C1;
+					};
+					0F20941424B25A2B009F49C1 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 0F2093F924B25A29009F49C1;
+					};
+					0F7D59C424AB96E400FE16F1 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					0FBBB7BB24A85F07004DC909 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					0FBBB7CC24A85F08004DC909 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 0FBBB7BB24A85F07004DC909;
+					};
+					0FBBB7D724A85F08004DC909 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 0FBBB7BB24A85F07004DC909;
+					};
+					0FBBB7EE24A889C8004DC909 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = 0FBBB7B724A85F07004DC909 /* Build configuration list for PBXProject "Movee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FBBB7B324A85F07004DC909;
+			packageReferences = (
+				0F0B2B2524AA53CD00D4FC26 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				0F3C7AC324B1150F005EBC68 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+			);
+			productRefGroup = 0FBBB7BD24A85F07004DC909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FBBB7BB24A85F07004DC909 /* Movee */,
+				0F2093F924B25A29009F49C1 /* Movee-Retro */,
+				0FBBB7EE24A889C8004DC909 /* TMDB */,
+				0FBBB7CC24A85F08004DC909 /* MoveeTests */,
+				0F20940924B25A2A009F49C1 /* Movee-RetroTests */,
+				0F7D59C424AB96E400FE16F1 /* TMDBTests */,
+				0FBBB7D724A85F08004DC909 /* MoveeUITests */,
+				0F20941424B25A2B009F49C1 /* Movee-RetroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F2093F824B25A29009F49C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F20940424B25A2A009F49C1 /* Preview Assets.xcassets in Resources */,
+				0F20940124B25A2A009F49C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F20940824B25A2A009F49C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F20941324B25A2B009F49C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7D59C324AB96E400FE16F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7BA24A85F07004DC909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBBB7C724A85F08004DC909 /* Preview Assets.xcassets in Resources */,
+				0FBBB7C424A85F08004DC909 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7CB24A85F08004DC909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7D624A85F08004DC909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7ED24A889C8004DC909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F2093F624B25A29009F49C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA09A3024B51FF00036083A /* SwiftUI+Movee.swift in Sources */,
+				0F20944424B26435009F49C1 /* MoviesCollectionView.swift in Sources */,
+				0F20944524B26435009F49C1 /* MovieCellView.swift in Sources */,
+				0F20944B24B26435009F49C1 /* ImageService.swift in Sources */,
+				0F20944824B26435009F49C1 /* MovieDetailsView.swift in Sources */,
+				0F20944724B26435009F49C1 /* RatingView.swift in Sources */,
+				0F20944124B26435009F49C1 /* TMDB+Movee.swift in Sources */,
+				0F20944A24B26435009F49C1 /* NetworkClient.swift in Sources */,
+				0F631E5724B65E7B00E4816E /* MovieService.swift in Sources */,
+				0F20944224B26435009F49C1 /* Foundation+Movee.swift in Sources */,
+				0F20944024B26435009F49C1 /* SDWebImage+Movee.swift in Sources */,
+				0FA09A2C24B51F950036083A /* AppEntryView.swift in Sources */,
+				0F20944924B26435009F49C1 /* MoveeApp.swift in Sources */,
+				0FA09A2E24B51FBF0036083A /* MovieCategoryCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F20940624B25A2A009F49C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F20940F24B25A2B009F49C1 /* Movee_RetroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F20941124B25A2B009F49C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F20941A24B25A2B009F49C1 /* Movee_RetroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7D59C124AB96E400FE16F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7D59C824AB96E400FE16F1 /* TMDBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7B824A85F07004DC909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBBB7C024A85F07004DC909 /* MoveeApp.swift in Sources */,
+				0F20943024B25AF9009F49C1 /* MovieDetailsView.swift in Sources */,
+				0F20942D24B25AF9009F49C1 /* MovieCellView.swift in Sources */,
+				0F929D0A24B4FC26002972EF /* SwiftUI+Movee.swift in Sources */,
+				0FAE52AB24B3A411009780E4 /* AppEntryView.swift in Sources */,
+				0F20942B24B25AF9009F49C1 /* TMDB+Movee.swift in Sources */,
+				0FAE52AD24B3A780009780E4 /* MovieCategoryCard.swift in Sources */,
+				0F20942E24B25AF9009F49C1 /* RatingView.swift in Sources */,
+				0F20942C24B25AF9009F49C1 /* MovieCollectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7C924A85F08004DC909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBBB7D224A85F08004DC909 /* MoveeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7D424A85F08004DC909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBBB7DD24A85F08004DC909 /* MoveeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBBB7EB24A889C8004DC909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBBB7FD24A88C71004DC909 /* TMDB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F20940C24B25A2A009F49C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F2093F924B25A29009F49C1 /* Movee-Retro */;
+			targetProxy = 0F20940B24B25A2A009F49C1 /* PBXContainerItemProxy */;
+		};
+		0F20941724B25A2B009F49C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F2093F924B25A29009F49C1 /* Movee-Retro */;
+			targetProxy = 0F20941624B25A2B009F49C1 /* PBXContainerItemProxy */;
+		};
+		0F7D59CC24AB96E400FE16F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FBBB7EE24A889C8004DC909 /* TMDB */;
+			targetProxy = 0F7D59CB24AB96E400FE16F1 /* PBXContainerItemProxy */;
+		};
+		0FBBB7CF24A85F08004DC909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FBBB7BB24A85F07004DC909 /* Movee */;
+			targetProxy = 0FBBB7CE24A85F08004DC909 /* PBXContainerItemProxy */;
+		};
+		0FBBB7DA24A85F08004DC909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FBBB7BB24A85F07004DC909 /* Movee */;
+			targetProxy = 0FBBB7D924A85F08004DC909 /* PBXContainerItemProxy */;
+		};
+		0FBBB7F524A889C8004DC909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FBBB7EE24A889C8004DC909 /* TMDB */;
+			targetProxy = 0FBBB7F424A889C8004DC909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F20941C24B25A2B009F49C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Movee-Retro/Preview Content\"";
+				DEVELOPMENT_TEAM = F256K9XGKC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Movee-Retro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cristik.Movee-Retro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F20941D24B25A2B009F49C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Movee-Retro/Preview Content\"";
+				DEVELOPMENT_TEAM = F256K9XGKC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Movee-Retro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cristik.Movee-Retro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F20941E24B25A2B009F49C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F256K9XGKC;
+				INFOPLIST_FILE = "Movee-RetroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cristik.Movee-RetroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movee-Retro.app/Movee-Retro";
+			};
+			name = Debug;
+		};
+		0F20941F24B25A2B009F49C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F256K9XGKC;
+				INFOPLIST_FILE = "Movee-RetroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cristik.Movee-RetroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movee-Retro.app/Movee-Retro";
+			};
+			name = Release;
+		};
+		0F20942024B25A2B009F49C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F256K9XGKC;
+				INFOPLIST_FILE = "Movee-RetroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cristik.Movee-RetroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Movee-Retro";
+			};
+			name = Debug;
+		};
+		0F20942124B25A2B009F49C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F256K9XGKC;
+				INFOPLIST_FILE = "Movee-RetroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cristik.Movee-RetroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Movee-Retro";
+			};
+			name = Release;
+		};
+		0F7D59CD24AB96E400FE16F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TMDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristik.TMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F7D59CE24AB96E400FE16F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TMDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristik.TMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FBBB7DF24A85F08004DC909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FBBB7E024A85F08004DC909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FBBB7E224A85F08004DC909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Movee/Preview Content\"";
+				DEVELOPMENT_TEAM = N574FG2G5M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Movee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristik.Movee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FBBB7E324A85F08004DC909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Movee/Preview Content\"";
+				DEVELOPMENT_TEAM = N574FG2G5M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Movee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristik.Movee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FBBB7E524A85F08004DC909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N574FG2G5M;
+				INFOPLIST_FILE = MoveeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristik.MoveeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movee.app/Movee";
+			};
+			name = Debug;
+		};
+		0FBBB7E624A85F08004DC909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N574FG2G5M;
+				INFOPLIST_FILE = MoveeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristik.MoveeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movee.app/Movee";
+			};
+			name = Release;
+		};
+		0FBBB7E824A85F08004DC909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N574FG2G5M;
+				INFOPLIST_FILE = MoveeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristik.MoveeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Movee;
+			};
+			name = Debug;
+		};
+		0FBBB7E924A85F08004DC909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N574FG2G5M;
+				INFOPLIST_FILE = MoveeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristik.MoveeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Movee;
+			};
+			name = Release;
+		};
+		0FBBB7F924A889C8004DC909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N574FG2G5M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TMDB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristik.TMDB;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0FBBB7FA24A889C8004DC909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N574FG2G5M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TMDB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristik.TMDB;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F20942224B25A2B009F49C1 /* Build configuration list for PBXNativeTarget "Movee-Retro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F20941C24B25A2B009F49C1 /* Debug */,
+				0F20941D24B25A2B009F49C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F20942324B25A2B009F49C1 /* Build configuration list for PBXNativeTarget "Movee-RetroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F20941E24B25A2B009F49C1 /* Debug */,
+				0F20941F24B25A2B009F49C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F20942424B25A2B009F49C1 /* Build configuration list for PBXNativeTarget "Movee-RetroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F20942024B25A2B009F49C1 /* Debug */,
+				0F20942124B25A2B009F49C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7D59CF24AB96E400FE16F1 /* Build configuration list for PBXNativeTarget "TMDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7D59CD24AB96E400FE16F1 /* Debug */,
+				0F7D59CE24AB96E400FE16F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FBBB7B724A85F07004DC909 /* Build configuration list for PBXProject "Movee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBBB7DF24A85F08004DC909 /* Debug */,
+				0FBBB7E024A85F08004DC909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FBBB7E124A85F08004DC909 /* Build configuration list for PBXNativeTarget "Movee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBBB7E224A85F08004DC909 /* Debug */,
+				0FBBB7E324A85F08004DC909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FBBB7E424A85F08004DC909 /* Build configuration list for PBXNativeTarget "MoveeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBBB7E524A85F08004DC909 /* Debug */,
+				0FBBB7E624A85F08004DC909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FBBB7E724A85F08004DC909 /* Build configuration list for PBXNativeTarget "MoveeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBBB7E824A85F08004DC909 /* Debug */,
+				0FBBB7E924A85F08004DC909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FBBB7F824A889C8004DC909 /* Build configuration list for PBXNativeTarget "TMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBBB7F924A889C8004DC909 /* Debug */,
+				0FBBB7FA24A889C8004DC909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F0B2B2524AA53CD00D4FC26 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+		0F3C7AC324B1150F005EBC68 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:mxcl/PromiseKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.13.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F0B2B2624AA53CD00D4FC26 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F0B2B2524AA53CD00D4FC26 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		0F20944E24B2647E009F49C1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F0B2B2524AA53CD00D4FC26 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		0F20945024B26482009F49C1 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F3C7AC324B1150F005EBC68 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		0F3C7AC424B1150F005EBC68 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F3C7AC324B1150F005EBC68 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0FBBB7B424A85F07004DC909 /* Project object */;
+}
